@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit'
-s.version           = '1.0.1'
+s.version           = '1.0.2'
 s.summary           = 'NA'
 s.homepage          = 'http://example.com'
 
@@ -31,8 +31,8 @@ s.source            = { :git => 'https://github.com/AppDeveloperKit/AppDeveloper
 
 
 # Dependencies on other frameworks I maintain.
-#s.dependency 'AppDeveloperKit-Bonjour', '1.0.0'
-#s.dependency 'AppDeveloperKit-Utils', '1.0.1'
+s.dependency 'AppDeveloperKit-Bonjour', '1.0.0'
+s.dependency 'AppDeveloperKit-Utils', '1.0.1'
 
 
 
