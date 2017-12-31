@@ -1,11 +1,11 @@
-# pod spec lint AppDeveloperKit.podspec --sources=https://github.com/CocoaPods/Specs.git
-# pod lib lint AppDeveloperKit.podspec --sources=https://github.com/CocoaPods/Specs.git
+# pod spec lint AppDeveloperKit.podspec 
+# pod lib lint AppDeveloperKit.podspec
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit'
-s.version           = '1.0.2'
+s.version           = '1.0.3'
 s.summary           = 'NA'
-s.homepage          = 'http://example.com'
+s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit'
 
 s.author            = { 'Name' => 'Scott Carter' }
 s.license           = { :type => 'Custom', :file => 'LICENSE' }
@@ -31,8 +31,8 @@ s.source            = { :git => 'https://github.com/AppDeveloperKit/AppDeveloper
 
 
 # Dependencies on other frameworks I maintain.
-s.dependency 'AppDeveloperKit-Bonjour', '1.0.0'
-s.dependency 'AppDeveloperKit-Utils', '1.0.1'
+s.dependency 'AppDeveloperKit-Bonjour', '1.0.1'
+s.dependency 'AppDeveloperKit-Utils', '1.0.3'
 
 
 
