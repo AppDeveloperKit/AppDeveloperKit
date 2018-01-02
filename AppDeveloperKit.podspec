@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit'
-s.version           = '1.0.3'
+s.version           = '1.0.4'
 s.summary           = 'NA'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit'
 
@@ -22,17 +22,17 @@ s.ios.deployment_target = '10.3'
 
 # Binary install.
 #
-s.ios.vendored_frameworks = 'FastStart_Config.framework'
+s.ios.vendored_frameworks = 'AppDeveloperKit.framework'
 
 # Local testing
-# s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit/FastStart_Config.framework.zip' }
+# s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit/AppDeveloperKit.framework.zip' }
 
 s.source            = { :git => 'https://github.com/AppDeveloperKit/AppDeveloperKit.git', :tag => s.version.to_s }
 
 
 # Dependencies on other frameworks I maintain.
-s.dependency 'AppDeveloperKit-Bonjour', '1.0.1'
-s.dependency 'AppDeveloperKit-Utils', '1.0.3'
+s.dependency 'AppDeveloperKit-Bonjour', '1.0.4'
+s.dependency 'AppDeveloperKit-Utils', '1.0.5'
 
 
 
