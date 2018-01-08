@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>README</key>
+	<string>Do not edit this plist file manually!  Generate via the Mac application only.</string>
+	<key>entities</key>
+	<array>
+		<dict>
+			<key>autopublish</key>
+			<true/>
+			<key>description</key>
+			<string></string>
+			<key>identifier</key>
+			<string>15E3FD37-4AE1-46D7-BD31-D04621D02E21</string>
+			<key>modified</key>
+			<date>2018-01-08T22:36:17Z</date>
+			<key>name</key>
+			<string>BrickBaseViewController</string>
+			<key>properties</key>
+			<array>
+				<dict>
+					<key>autogenerate</key>
+					<false/>
+					<key>data</key>
+					<string>{
+    "labels": [
+        {
+            "brickText": "Brick Text 1",
+            "backgroundColor": "rgba(255, 255, 0, 0.2)",
+            "repeatCount": 2,
+            "brickSize": {
+                "width": "ratio",
+                "widthValue": 0.7,
+                "height": "ratio",
+                "heightValue": 2
+            }
+        },
+        {
+            "brickText": "Brick Text 2",
+            "backgroundColor": "rgba(50, 255, 0, 1.0)",
+            "repeatCount": 2,
+            "brickSize": {
+                "width": "fixed",
+                "widthValue": 200,
+                "height": "ratio",
+                "heightValue": 0.3
+            }
+        }
+    ]
+}</string>
+					<key>description</key>
+					<string></string>
+					<key>identifier</key>
+					<string>7C2D2A26-E63E-44AE-BD3B-D033B53EE55A</string>
+					<key>modified</key>
+					<date>2018-01-08T22:36:17Z</date>
+					<key>name</key>
+					<string>json</string>
+					<key>type</key>
+					<string>JSON</string>
+				</dict>
+				<dict>
+					<key>autogenerate</key>
+					<false/>
+					<key>data</key>
+					<true/>
+					<key>description</key>
+					<string></string>
+					<key>identifier</key>
+					<string>092E0A9E-709C-4A7F-BE44-FB2B2F55B7C6</string>
+					<key>modified</key>
+					<date>2018-01-08T22:30:56Z</date>
+					<key>name</key>
+					<string>horizontal</string>
+					<key>type</key>
+					<string>Bool</string>
+				</dict>
+			</array>
+			<key>type</key>
+			<string>class</string>
+		</dict>
+	</array>
+	<key>supplemental</key>
+	<dict>
+		<key>bundleId</key>
+		<string>com.scarter.ADK-LibraryExample</string>
+		<key>description</key>
+		<string></string>
+		<key>modified</key>
+		<date>2018-01-08T22:36:17Z</date>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+</dict>
+</plist>
