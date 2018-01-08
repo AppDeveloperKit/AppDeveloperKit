@@ -1,0 +1,14 @@
+# To stop tracking a file that is currently tracked, use git rm --cached <file>
+
+# .gitignore syntax
+# https://git-scm.com/docs/gitignore
+
+
+*~
+**/*.xcworkspace/xcshareddata
+**/*.xcodeproj/project.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
+**/*.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
+Pods/
+*.framework
+.DS_Store
+.swift-version

@@ -1,0 +1,21 @@
+PODS:
+  - AppDeveloperKit (1.0.5):
+    - AppDeveloperKit-Bonjour (= 1.0.5)
+    - AppDeveloperKit-Utils (= 1.0.6)
+  - AppDeveloperKit-Bonjour (1.0.5):
+    - DTBonjour (= 1.1.3)
+  - AppDeveloperKit-Utils (1.0.6)
+  - DTBonjour (1.1.3)
+
+DEPENDENCIES:
+  - AppDeveloperKit
+
+SPEC CHECKSUMS:
+  AppDeveloperKit: adcb872b621e57f5f23ef822060cde00251aa0d5
+  AppDeveloperKit-Bonjour: 79193a00eab942f027483e4f5342c8151940227e
+  AppDeveloperKit-Utils: b2c1529092852c4afd51c786a54fa083b8c1908d
+  DTBonjour: 5883d2f0459903096c6784f88c603c410002bbca
+
+PODFILE CHECKSUM: bc698e5e5f7fa4581674e3f4477f1a6cf17b3b2b
+
+COCOAPODS: 1.3.1
