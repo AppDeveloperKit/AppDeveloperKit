@@ -80,6 +80,80 @@
 			<key>type</key>
 			<string>class</string>
 		</dict>
+		<dict>
+			<key>autopublish</key>
+			<true/>
+			<key>description</key>
+			<string></string>
+			<key>identifier</key>
+			<string>79393D85-CACC-4112-B38E-13071F49F538</string>
+			<key>modified</key>
+			<date>2018-01-09T20:14:17Z</date>
+			<key>name</key>
+			<string>BrickExample</string>
+			<key>properties</key>
+			<array>
+				<dict>
+					<key>autogenerate</key>
+					<true/>
+					<key>data</key>
+					<true/>
+					<key>description</key>
+					<string></string>
+					<key>identifier</key>
+					<string>536FA8A8-D930-4C22-9677-8630CC16B3CD</string>
+					<key>modified</key>
+					<date>2018-01-09T20:14:17Z</date>
+					<key>name</key>
+					<string>horizontal</string>
+					<key>type</key>
+					<string>Bool</string>
+				</dict>
+				<dict>
+					<key>autogenerate</key>
+					<true/>
+					<key>data</key>
+					<string>{
+    "labels": [
+        {
+            "brickText": "Brick Text 1",
+            "backgroundColor": "rgba(0, 255, 0, 0.2)",
+            "repeatCount": 1,
+            "brickSize": {
+                "width": "ratio",
+                "widthValue": 0.7,
+                "height": "ratio",
+                "heightValue": 2
+            }
+        },
+        {
+            "brickText": "Brick Text 2",
+            "backgroundColor": "rgba(255, 255, 0, 1.0)",
+            "repeatCount": 2,
+            "brickSize": {
+                "width": "fixed",
+                "widthValue": 200,
+                "height": "ratio",
+                "heightValue": 0.3
+            }
+        }
+    ]
+}</string>
+					<key>description</key>
+					<string></string>
+					<key>identifier</key>
+					<string>7D7920A0-15DD-41C1-85EC-D1DF3A980422</string>
+					<key>modified</key>
+					<date>2018-01-09T20:14:17Z</date>
+					<key>name</key>
+					<string>json</string>
+					<key>type</key>
+					<string>JSON</string>
+				</dict>
+			</array>
+			<key>type</key>
+			<string>class</string>
+		</dict>
 	</array>
 	<key>supplemental</key>
 	<dict>
@@ -88,7 +162,7 @@
 		<key>description</key>
 		<string></string>
 		<key>modified</key>
-		<date>2018-01-08T22:36:17Z</date>
+		<date>2018-01-09T20:14:17Z</date>
 		<key>version</key>
 		<string>1.0.0</string>
 	</dict>

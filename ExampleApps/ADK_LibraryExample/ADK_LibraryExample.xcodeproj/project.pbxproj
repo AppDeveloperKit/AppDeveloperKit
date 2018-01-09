@@ -15,6 +15,7 @@
 		A75DC77F2004254E00423C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75DC77D2004254E00423C7D /* LaunchScreen.storyboard */; };
 		A75DC787200428D500423C7D /* AppDeveloperKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = A75DC786200428D500423C7D /* AppDeveloperKit.plist */; };
 		A75DC7892004291700423C7D /* AppDeveloperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DC7882004291700423C7D /* AppDeveloperKit.swift */; };
+		A75DC78B200556BF00423C7D /* BrickExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DC78A200556BF00423C7D /* BrickExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A75DC7802004254E00423C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75DC786200428D500423C7D /* AppDeveloperKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppDeveloperKit.plist; sourceTree = "<group>"; };
 		A75DC7882004291700423C7D /* AppDeveloperKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDeveloperKit.swift; sourceTree = "<group>"; };
+		A75DC78A200556BF00423C7D /* BrickExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				A75DC7742004254E00423C7D /* AppDelegate.swift */,
 				A75DC7762004254E00423C7D /* MainController.swift */,
+				A75DC78A200556BF00423C7D /* BrickExample.swift */,
 				A75DC7782004254E00423C7D /* Main.storyboard */,
 				A75DC77B2004254E00423C7D /* Assets.xcassets */,
 				A75DC77D2004254E00423C7D /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75DC78B200556BF00423C7D /* BrickExample.swift in Sources */,
 				A75DC7772004254E00423C7D /* MainController.swift in Sources */,
 				A75DC7752004254E00423C7D /* AppDelegate.swift in Sources */,
 				A75DC7892004291700423C7D /* AppDeveloperKit.swift in Sources */,

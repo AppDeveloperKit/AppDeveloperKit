@@ -4,10 +4,10 @@ PODS:
     - AppDeveloperKit-Utils (= 1.0.6)
   - AppDeveloperKit-Bonjour (1.0.5):
     - DTBonjour (= 1.1.3)
-  - AppDeveloperKit-Library/Brick (1.0.4):
+  - AppDeveloperKit-Library/Brick (1.0.6):
     - AppDeveloperKit-Library/Core
     - BrickKit (= 2.4.0)
-  - AppDeveloperKit-Library/Core (1.0.4):
+  - AppDeveloperKit-Library/Core (1.0.6):
     - AppDeveloperKit
   - AppDeveloperKit-Utils (1.0.6)
   - BrickKit (2.4.0)
@@ -20,7 +20,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AppDeveloperKit: adcb872b621e57f5f23ef822060cde00251aa0d5
   AppDeveloperKit-Bonjour: 79193a00eab942f027483e4f5342c8151940227e
-  AppDeveloperKit-Library: 169d8faabd3dd36fd6d95c7ed36fa59742911615
+  AppDeveloperKit-Library: 7978fbee055fe1525e35eb8007dc13848822ed66
   AppDeveloperKit-Utils: b2c1529092852c4afd51c786a54fa083b8c1908d
   BrickKit: b30a96e97ae4ebbc524469f6dc274a5936018a11
   DTBonjour: 5883d2f0459903096c6784f88c603c410002bbca

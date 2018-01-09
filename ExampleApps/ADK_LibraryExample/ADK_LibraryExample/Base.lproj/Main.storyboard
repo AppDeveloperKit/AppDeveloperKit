@@ -25,10 +25,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoj-Ll-WXt">
-                                <rect key="frame" x="20" y="124" width="98" height="30"/>
-                                <state key="normal" title="BrickKit Demo"/>
+                                <rect key="frame" x="20" y="124" width="255" height="30"/>
+                                <state key="normal" title="BrickBaseViewController (Library VC)"/>
                                 <connections>
                                     <segue destination="Ncs-ai-ynh" kind="show" id="Pjq-xd-7d4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-GI-Co2">
+                                <rect key="frame" x="20" y="184" width="263" height="30"/>
+                                <state key="normal" title="BrickExample (Subclass of Library VC)"/>
+                                <connections>
+                                    <segue destination="Gau-dM-sTi" kind="show" id="exO-cP-ROU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,9 +43,12 @@
                         <constraints>
                             <constraint firstItem="Ms2-0X-Vs4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="4LS-3D-ItU"/>
                             <constraint firstItem="qoj-Ll-WXt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5kU-NT-hlc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BWU-GI-Co2" secondAttribute="trailing" constant="20" symbolic="YES" id="61E-La-xPJ"/>
+                            <constraint firstItem="BWU-GI-Co2" firstAttribute="top" secondItem="qoj-Ll-WXt" secondAttribute="bottom" constant="30" id="63O-Zt-ToZ"/>
                             <constraint firstItem="qoj-Ll-WXt" firstAttribute="top" secondItem="Ms2-0X-Vs4" secondAttribute="bottom" constant="30" id="M0h-lO-Vpb"/>
                             <constraint firstItem="Ms2-0X-Vs4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kDo-U7-mzI"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qoj-Ll-WXt" secondAttribute="trailing" constant="20" symbolic="YES" id="rsS-nL-jmi"/>
+                            <constraint firstItem="BWU-GI-Co2" firstAttribute="leading" secondItem="qoj-Ll-WXt" secondAttribute="leading" id="yWd-fB-yHK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -62,6 +72,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cre-SG-I7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1157.5999999999999" y="136.28185907046478"/>
+        </scene>
+        <!--Brick Example-->
+        <scene sceneID="qMY-Lm-bAO">
+            <objects>
+                <viewController id="Gau-dM-sTi" customClass="BrickExample" customModule="ADK_LibraryExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uj4-hs-Rlv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5hZ-ou-80D"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8D-dR-YKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162" y="822"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cd0-g3-Jxq">
