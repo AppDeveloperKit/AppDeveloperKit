@@ -13,8 +13,14 @@
 			<string></string>
 			<key>identifier</key>
 			<string>92EE5B47-2E94-42EE-BFFF-87B138148864</string>
+			<key>libraryComponent</key>
+			<false/>
 			<key>modified</key>
 			<date>2018-01-08T21:35:00Z</date>
+			<key>moduleName</key>
+			<string></string>
+			<key>moduleVersion</key>
+			<string></string>
 			<key>name</key>
 			<string>MainViewController</string>
 			<key>properties</key>
@@ -110,10 +116,16 @@
 		<string>com.scarter.ADK-BasicExample</string>
 		<key>description</key>
 		<string></string>
+		<key>libraryEnable</key>
+		<false/>
 		<key>modified</key>
-		<date>2018-01-08T21:35:00Z</date>
+		<date>2018-01-30T20:48:07Z</date>
+		<key>moduleName</key>
+		<string></string>
+		<key>moduleVersion</key>
+		<string></string>
 		<key>version</key>
-		<string>1.0.0</string>
+		<string>1.0.2</string>
 	</dict>
 </dict>
 </plist>
