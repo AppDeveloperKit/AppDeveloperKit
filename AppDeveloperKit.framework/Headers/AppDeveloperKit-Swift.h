@@ -203,6 +203,7 @@ SWIFT_CLASS("_TtC15AppDeveloperKit10ADK_Config")
 - (void)reportInfo:(NSString * _Nonnull)msg debugMsg:(NSString * _Nonnull)debugMsg filePath:(NSString * _Nonnull)filePath function:(int8_t const * _Nonnull)function line:(NSInteger)line;
 - (void)setupWithEnableLiveUpdates:(BOOL)enableLiveUpdates;
 - (void)registerClassWithSender:(id _Nonnull)sender name:(NSString * _Nonnull)name;
+- (void)registerClassWithSender:(id _Nonnull)sender name:(NSString * _Nonnull)name module:(NSString * _Nonnull)module_;
 - (void)deregisterClassWithSender:(id _Nonnull)sender;
 - (void)configColorWithSender:(id _Nonnull)sender name:(NSString * _Nonnull)name defaultValue:(UIColor * _Nullable)defaultValue initComplete:(SWIFT_NOESCAPE void (^ _Nonnull)(UIColor * _Nullable))initComplete changeComplete:(void (^ _Nonnull)(UIColor * _Nullable))changeComplete;
 - (void)configColorWithSender:(id _Nonnull)sender name:(NSString * _Nonnull)name initComplete:(SWIFT_NOESCAPE void (^ _Nonnull)(UIColor * _Nullable))initComplete changeComplete:(void (^ _Nonnull)(UIColor * _Nullable))changeComplete;
