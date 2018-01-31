@@ -10,13 +10,13 @@
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
-			<string></string>
+			<string>Example of  using a subclassed library component.</string>
 			<key>identifier</key>
 			<string>0A884D16-D45E-4B9C-AF79-6626750CDACF</string>
 			<key>libraryComponent</key>
 			<false/>
 			<key>modified</key>
-			<date>2018-01-29T17:28:06Z</date>
+			<date>2018-01-31T17:04:17Z</date>
 			<key>moduleName</key>
 			<string></string>
 			<key>moduleVersion</key>
@@ -91,15 +91,15 @@
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
-			<string></string>
+			<string>Example of directly using a library component from Pod.</string>
 			<key>identifier</key>
 			<string>54CB7D36-C353-4ABB-AA85-D77AE3DC7F1F</string>
 			<key>libraryComponent</key>
 			<true/>
 			<key>modified</key>
-			<date>2018-01-29T17:23:57Z</date>
+			<date>2018-01-31T17:03:49Z</date>
 			<key>moduleName</key>
-			<string>AppDeveloperKit-Library</string>
+			<string>AppDeveloperKit_Library</string>
 			<key>moduleVersion</key>
 			<string>1.0.6</string>
 			<key>name</key>
@@ -178,7 +178,7 @@
 		<key>libraryEnable</key>
 		<false/>
 		<key>modified</key>
-		<date>2018-01-29T17:28:06Z</date>
+		<date>2018-01-31T17:04:17Z</date>
 		<key>moduleName</key>
 		<string></string>
 		<key>moduleVersion</key>

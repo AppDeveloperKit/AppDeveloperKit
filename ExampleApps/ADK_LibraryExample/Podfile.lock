@@ -1,15 +1,15 @@
 PODS:
-  - AppDeveloperKit (1.0.5):
-    - AppDeveloperKit-Bonjour (= 1.0.5)
-    - AppDeveloperKit-Utils (= 1.0.6)
-  - AppDeveloperKit-Bonjour (1.0.5):
+  - AppDeveloperKit (1.0.6):
+    - AppDeveloperKit-Bonjour (= 1.0.6)
+    - AppDeveloperKit-Utils (= 1.0.7)
+  - AppDeveloperKit-Bonjour (1.0.6):
     - DTBonjour (= 1.1.3)
-  - AppDeveloperKit-Library/Brick (1.0.6):
+  - AppDeveloperKit-Library/Brick (1.0.8):
     - AppDeveloperKit-Library/Core
     - BrickKit (= 2.4.0)
-  - AppDeveloperKit-Library/Core (1.0.6):
+  - AppDeveloperKit-Library/Core (1.0.8):
     - AppDeveloperKit
-  - AppDeveloperKit-Utils (1.0.6)
+  - AppDeveloperKit-Utils (1.0.7)
   - BrickKit (2.4.0)
   - DTBonjour (1.1.3)
 
@@ -18,10 +18,10 @@ DEPENDENCIES:
   - AppDeveloperKit-Library/Brick
 
 SPEC CHECKSUMS:
-  AppDeveloperKit: adcb872b621e57f5f23ef822060cde00251aa0d5
-  AppDeveloperKit-Bonjour: 79193a00eab942f027483e4f5342c8151940227e
-  AppDeveloperKit-Library: 7978fbee055fe1525e35eb8007dc13848822ed66
-  AppDeveloperKit-Utils: b2c1529092852c4afd51c786a54fa083b8c1908d
+  AppDeveloperKit: 24a01d48779fe8ced47d950ba2d6bdbdba4c851d
+  AppDeveloperKit-Bonjour: bb7a06fbaddccb1fdf0fdbf9ad82d15bd88c59f0
+  AppDeveloperKit-Library: 52e6517743ae01107af067015f2b9e8af1152948
+  AppDeveloperKit-Utils: d0cb5a64aa344463a4fa7506319c4cab10f0e830
   BrickKit: b30a96e97ae4ebbc524469f6dc274a5936018a11
   DTBonjour: 5883d2f0459903096c6784f88c603c410002bbca
 
