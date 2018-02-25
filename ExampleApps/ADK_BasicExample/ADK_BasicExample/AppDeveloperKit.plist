@@ -7,6 +7,8 @@
 	<key>entities</key>
 	<array>
 		<dict>
+			<key>autogenerate</key>
+			<true/>
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
@@ -119,13 +121,13 @@
 		<key>libraryEnable</key>
 		<false/>
 		<key>modified</key>
-		<date>2018-01-30T20:48:07Z</date>
+		<date>2018-02-24T20:37:10Z</date>
 		<key>moduleName</key>
 		<string></string>
 		<key>moduleVersion</key>
 		<string></string>
 		<key>version</key>
-		<string>1.0.2</string>
+		<string>1.0.3</string>
 	</dict>
 </dict>
 </plist>
