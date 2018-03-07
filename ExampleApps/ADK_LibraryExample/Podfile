@@ -10,7 +10,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 # Reference:  https://github.com/CocoaPods/CocoaPods/issues/6791
 # All pods not specified use setting set by Xcode/CocoaPods.
 #
-swift_32 = ['BrickKit']
+swift_32 = ['']
 swift4 = ['']
 
 post_install do |installer|
