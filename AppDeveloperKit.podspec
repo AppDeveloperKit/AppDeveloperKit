@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit'
-s.version           = '1.0.7'
+s.version           = '1.0.8'
 s.summary           = 'NA'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit'
 
@@ -13,7 +13,7 @@ s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
 s.platform          = :ios
 
-s.ios.deployment_target = '10.3'
+s.ios.deployment_target = '11.0'
 
 # Example of 3rd party dependencies
 #s.dependency 'AFNetworking'
@@ -31,8 +31,8 @@ s.source            = { :git => 'https://github.com/AppDeveloperKit/AppDeveloper
 
 
 # Dependencies on other frameworks I maintain.
-s.dependency 'AppDeveloperKit-Bonjour', '1.0.6'
-s.dependency 'AppDeveloperKit-Utils', '1.0.7'
+s.dependency 'AppDeveloperKit-Bonjour', '1.0.8'
+s.dependency 'AppDeveloperKit-Utils', '1.0.8'
 
 
 
