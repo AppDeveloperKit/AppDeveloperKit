@@ -5,4 +5,8 @@
 
 *~
 .DS_Store
-
+**/*.xcworkspace/xcshareddata
+**/*.xcodeproj/project.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
+**/*.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
+Pods/
+.swift-version
