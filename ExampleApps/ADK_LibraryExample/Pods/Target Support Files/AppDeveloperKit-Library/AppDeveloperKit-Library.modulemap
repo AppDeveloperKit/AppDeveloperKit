@@ -1,0 +1,6 @@
+framework module AppDeveloperKit_Library {
+  umbrella header "AppDeveloperKit-Library-umbrella.h"
+
+  export *
+  module * { export * }
+}

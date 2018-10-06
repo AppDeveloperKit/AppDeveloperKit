@@ -1,0 +1,6 @@
+framework module BrickKit {
+  umbrella header "BrickKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

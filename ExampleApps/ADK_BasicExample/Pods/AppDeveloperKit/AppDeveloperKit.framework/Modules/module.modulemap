@@ -1,0 +1,11 @@
+framework module AppDeveloperKit {
+  umbrella header "AppDeveloperKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AppDeveloperKit.Swift {
+    header "AppDeveloperKit-Swift.h"
+    requires objc
+}

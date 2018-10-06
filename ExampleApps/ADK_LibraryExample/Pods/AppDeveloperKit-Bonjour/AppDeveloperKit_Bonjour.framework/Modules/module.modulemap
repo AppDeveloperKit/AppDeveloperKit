@@ -1,0 +1,11 @@
+framework module AppDeveloperKit_Bonjour {
+  umbrella header "AppDeveloperKit_Bonjour.h"
+
+  export *
+  module * { export * }
+}
+
+module AppDeveloperKit_Bonjour.Swift {
+    header "AppDeveloperKit_Bonjour-Swift.h"
+    requires objc
+}

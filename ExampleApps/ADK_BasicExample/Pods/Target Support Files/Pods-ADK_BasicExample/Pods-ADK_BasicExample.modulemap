@@ -1,0 +1,6 @@
+framework module Pods_ADK_BasicExample {
+  umbrella header "Pods-ADK_BasicExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

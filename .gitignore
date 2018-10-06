@@ -3,12 +3,6 @@
 # .gitignore syntax
 # https://git-scm.com/docs/gitignore
 
-
 *~
-**/*.xcworkspace/xcshareddata
-**/*.xcodeproj/project.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
-**/*.xcworkspace/xcuserdata/**/UserInterfaceState.xcuserstate
-Pods/
-*.framework
 .DS_Store
-.swift-version
+
