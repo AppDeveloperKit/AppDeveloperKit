@@ -109,7 +109,6 @@
 				A75DC76E2004254E00423C7D /* Frameworks */,
 				A75DC76F2004254E00423C7D /* Resources */,
 				5AF924D5BBC626672A2A567B /* [CP] Embed Pods Frameworks */,
-				7F2624DF2719EE8614EB84C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,21 +194,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADK_LibraryExample/Pods-ADK_LibraryExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F2624DF2719EE8614EB84C5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADK_LibraryExample/Pods-ADK_LibraryExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F052DFFABD6BAB4FA328D73B /* [CP] Check Pods Manifest.lock */ = {

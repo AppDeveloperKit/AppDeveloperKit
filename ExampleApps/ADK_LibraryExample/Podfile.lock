@@ -1,15 +1,15 @@
 PODS:
-  - AppDeveloperKit (1.0.7):
-    - AppDeveloperKit-Bonjour (= 1.0.6)
-    - AppDeveloperKit-Utils (= 1.0.7)
-  - AppDeveloperKit-Bonjour (1.0.6):
+  - AppDeveloperKit (1.0.10):
+    - AppDeveloperKit-Bonjour (= 1.0.10)
+    - AppDeveloperKit-Utils (= 1.0.10)
+  - AppDeveloperKit-Bonjour (1.0.10):
     - DTBonjour (= 1.1.3)
   - AppDeveloperKit-Library/Brick (1.0.11):
     - AppDeveloperKit-Library/Core
     - BrickKit (= 2.4.3)
   - AppDeveloperKit-Library/Core (1.0.11):
     - AppDeveloperKit
-  - AppDeveloperKit-Utils (1.0.7)
+  - AppDeveloperKit-Utils (1.0.10)
   - BrickKit (2.4.3)
   - DTBonjour (1.1.3)
 
@@ -17,14 +17,23 @@ DEPENDENCIES:
   - AppDeveloperKit
   - AppDeveloperKit-Library/Brick
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppDeveloperKit
+    - AppDeveloperKit-Bonjour
+    - AppDeveloperKit-Library
+    - AppDeveloperKit-Utils
+    - BrickKit
+    - DTBonjour
+
 SPEC CHECKSUMS:
-  AppDeveloperKit: 4e57f9f463171b31e54528d91267c2b230760ff3
-  AppDeveloperKit-Bonjour: bb7a06fbaddccb1fdf0fdbf9ad82d15bd88c59f0
+  AppDeveloperKit: c8f5c33430f9fc5ca84711c6ddd12df3ed214adc
+  AppDeveloperKit-Bonjour: b098f39657c3bf3c50a65ff035ab6de7d5e4a770
   AppDeveloperKit-Library: 0ba998e4a3876f18043ed1839232ef62bdd1ac4b
-  AppDeveloperKit-Utils: d0cb5a64aa344463a4fa7506319c4cab10f0e830
+  AppDeveloperKit-Utils: d561e3720467115584a96c4e82a28343886d3962
   BrickKit: ccdda21f23d71a21dc041b1ae6162e62be5c82a2
   DTBonjour: 5883d2f0459903096c6784f88c603c410002bbca
 
 PODFILE CHECKSUM: d96fb22364b1a5c0e03160147bdab604acd5c207
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

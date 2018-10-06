@@ -106,7 +106,6 @@
 				A75DC74C2004054500423C7D /* Frameworks */,
 				A75DC74D2004054500423C7D /* Resources */,
 				32BBAC2368BAF7CFA757A335 /* [CP] Embed Pods Frameworks */,
-				D790549C840038A24F140313 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,21 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADK_BasicExample/Pods-ADK_BasicExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D790549C840038A24F140313 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADK_BasicExample/Pods-ADK_BasicExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
